@@ -542,3 +542,36 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (max-width: 580px) {
+  .inicio {
+    padding-left: 10%;
+  }
+  .info .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .info .h3 {
+    font-size: 1.5em;
+  }
+  .info .h4 {
+    font-size: 1em;
+  }
+  .interior {
+    padding: 0 5em;
+  }
+  .interior .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .termas .h3 {
+    font-size: 4em;
+  }
+  .termas .h4 {
+    font-size: 1.6em;
+  }
+  .about .h3 {
+    font-size: 1.2em;
+  }
+  .about .h4 {
+    font-size: 0.9em;
+  }
+}
